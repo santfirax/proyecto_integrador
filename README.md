@@ -13,7 +13,7 @@ S3_PREFIX/YYYY/MM/dataset-slug-YYYY-MM-DD_YYYY-MM-DD.json
 Ejemplo:
 
 ```text
-simem-data/2026/05/generacion-real-2026-05-01_2026-05-07.json
+bronze/simem-data/2026/05/generacion-real-2026-05-01_2026-05-07.json
 ```
 
 ## Requisitos

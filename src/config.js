@@ -129,7 +129,7 @@ function readConfig() {
     requestParameters,
     apiTimeoutMs,
     s3Bucket: getRequiredEnv(["S3_BUCKET_NAME", "S3_BUCKET"]),
-    s3Prefix: getPopulatedEnv("S3_PREFIX") || "simem-data",
+    s3Prefix: getPopulatedEnv("S3_PREFIX") || "bronze/simem-data",
     dryRun: parseBooleanEnv("DRY_RUN", false)
   };
 }
